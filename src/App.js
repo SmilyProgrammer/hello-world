@@ -7,7 +7,7 @@ import Message from "./components/Message";
 function App() {
   return (
     <div className="App">
-      <Message />
+      <Message message="Welcome Visitors" />
       {/* <Greet name="Bruce" heroName="Batman">
         <p>Hello Vishwas</p>
         <button>Click Me</button>

@@ -1,10 +1,10 @@
 import React from "react";
 
 class Message extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      message: "Welcome Visitors",
+      message: this.props.message,
     };
   }
 
